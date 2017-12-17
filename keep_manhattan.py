@@ -5,7 +5,6 @@ def keep_MHT(data):
     """
     input data from osm_to_json.py
     remove all data that is not in Manhattan using zipcode, latitude, longitude and city criteria
-
     return cleaned data
     """
 
@@ -91,10 +90,12 @@ def process_data(data, file_out):
     return manhattan_only
 
 if __name__ == "__main__":
+    # input data
     data = []
     for line in open('manhattan.json', 'r'):
         data.append(json.loads(line))
 
+    # output file name
     file_out = "manhattan_only.json"
 
     manhattan_only = process_data(data, file_out)
