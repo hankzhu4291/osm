@@ -2,8 +2,8 @@
 
 ## Procedure
 1)	Obtain data (node(40.6978, -74.0224, 40.8704, -73.9160);<;);out meta; from [Overpass API](http://overpass-api.de/query_form.html); save as (‘manhattan.osm’)
-Map Area: Manhattan, New York City, US
 
+Map Area: Manhattan, New York City, US
 Min latitude: 40.6978, 
 Min longitude: -74.0224, 
 Max latitude: 40.8704, 
